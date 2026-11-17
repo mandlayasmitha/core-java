@@ -40,8 +40,19 @@ if{
 }
 \\block of code
 }
+****SYNTAX
+switch (expression) {
+  case value1:
+    // Code executed if expression matches value1
+    break;
+  case value2:
+    // Code executed if expression matches value2
+    break;
+  default:
+    // Optional code executed if no cases match
+}
+**IF CODE**
 import java.util.Scanner;
-
 public class ifsys{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -55,3 +66,108 @@ public class ifsys{
     }
 }
 
+
+**IF ELSE**
+public class Main {
+    public static void main(String[] args) {
+        int num = 10;
+
+        if (num % 2 == 0) {
+            System.out.println("Even");
+        } else {
+            System.out.println("Odd");
+        }
+    }
+}
+
+**ELSE IF CODE**
+import java.util.Scanner;
+public class elseifsys{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter your marks:");
+        int marks = sc.nextInt();
+
+        if (marks >= 90 && marks <= 100) {
+            System.out.println("Grade A");
+        }
+        else if (marks >= 80) {
+            System.out.println("Grade B");
+        }
+        else if (marks >= 70) {
+            System.out.println("Grade C");
+        }
+        else if (marks >= 60) {
+            System.out.println("Grade D");
+        }
+        else if (marks >= 50) {
+            System.out.println("Grade E");
+        }
+        else if (marks >= 0) {
+            System.out.println("Fail");
+        }
+        else {
+            System.out.println("Invalid Marks");
+        }
+
+        sc.close();
+    }
+}
+
+**NESTED IF**
+import java.util.Scanner;
+
+public class nestedif{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter your number:");
+        int v1=sc.nextInt();
+        if(v1>=20){
+            if(v1>20){
+                System.out.println("condition2");
+
+            }
+System.out.println("Condition1");
+        }
+    }
+}
+
+**SWITCH CODE**
+import java.util.Scanner;
+public class switchs{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+                System.out.println("Enter your number:");
+        int v=sc.nextInt();
+        switch(v){
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+            default:
+                System.out.println("Invalid");
+
+                    
+        }
+        
+        }
+}
