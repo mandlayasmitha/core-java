@@ -191,3 +191,66 @@ public class forloop{
        }
     }
 }
+##While loop
+Syntax
+while(condition) {
+    // statements
+    // increment/decrement
+}
+
+
+class WhileTables {
+    public static void main(String[] args) {
+
+        int i = 1;
+
+        while (i <= 5) {
+
+            System.out.println("Starting Table " + i);
+
+            int j = 1;
+
+            while (j <= 10) {
+                System.out.println(i + " x " + j + " = " + (i * j));
+                j++;
+            }
+
+            System.out.println("Ended Table " + i);
+            System.out.println();
+
+            i++;
+        }
+    }
+}
+
+##DO while
+syntax
+do {
+    // statements
+    // increment/decrement
+} while(condition);
+
+
+class DoWhileTables {
+    public static void main(String[] args) {
+
+        int i = 1;
+
+        do {
+            System.out.println("Starting Table " + i);
+
+            int j = 1;
+
+            do {
+                System.out.println(i + " x " + j + " = " + (i * j));
+                j++;
+            } while (j <= 10);
+
+            System.out.println("Ended Table " + i);
+            System.out.println();
+
+            i++;
+
+        } while (i <= 5);
+    }
+}
