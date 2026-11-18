@@ -1,0 +1,79 @@
+1.
+public class Main {
+    public static void main(String[] args) {
+
+        int arr[] = {10, 20, 30, 40, 50};
+
+        int sum = 0;
+        int count = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            sum += arr[i];
+
+            System.out.println(arr[i]);
+
+            count++;
+        }
+
+        System.out.println("Sum = " + sum);
+        System.out.println("Count = " + count);
+    }
+}
+2.class Main {
+    public static void main(String[] args) {
+      int[] arr={10,20,30,44,50};
+        int s=0;
+    
+        for(int i=0;i<arr.length;i++){
+            System.out.println(arr[i]);
+            s+=arr[i];
+            System.out.println(s);
+            
+        }
+        System.out.println(s);
+        
+    }
+}
+
+3.class Main {
+    public static void main(String[] args) {
+      int[] arr={10,20,30,44,50};
+        int s=30;
+    
+        for(int i=0;i<arr.length;i++){
+           if(arr[i]==s){
+               System.out.println("Data is found");
+              
+           }}}}
+
+4.class Main {
+    public static void main(String[] args) {
+      int[] arr={10,20,30,44,50};
+        int s=arr[0];
+    
+        for(int i=0;i<arr.length;i++){
+           if(arr[i]>s){
+              s=arr[i];
+            
+        }}
+    System.out.println(s);
+    }}
+
+5.class Main {
+    public static void main(String[] args) {
+      int[] arr={10,20,30,44,50};
+        int f=arr[0];
+    int sec=0;
+        for(int i=0;i<arr.length;i++){
+           if(arr[i]>f){
+               sec=f;
+              f=arr[i];
+            
+        }
+            else if(arr[i]>sec && arr[i]!=f){
+                sec=arr[i];
+            }
+        }
+        System.out.println(sec);
+   
+    }}
