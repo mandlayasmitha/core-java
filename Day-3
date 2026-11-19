@@ -77,3 +77,50 @@ public class Main {
         System.out.println(sec);
    
     }}
+**STRING METHODS**
+
+1.length()	
+->Returns the length of a string.	
+"Hello".length() → 5
+2.charAt()	
+->Returns a character at a given index.
+"Hello".charAt(1) → e
+3.toUpperCase()
+->Converts to uppercase.	
+"hello".toUpperCase() → HELLO
+4.toLowerCase()	
+->Converts to lowercase.	
+"HELLO".toLowerCase() → hello
+5.equals()
+->Compares two strings.	
+"Java".equals("Java") → true
+6.equalsIgnoreCase()	
+->Compares strings ignoring case.	
+"Java".equalsIgnoreCase("JAVA") → true
+7.concat()
+->Joins two strings.
+"Hello".concat(" World")
+8.substring()	
+->Extracts part of a string.	
+"Hello".substring(1,4) → ell
+9.contains()
+->Checks whether text is present.	
+"Hello".contains("ell") → true
+10.indexOf()	
+->Returns the position of a character or text.	
+"Hello".indexOf('l') → 2
+11.replace()
+->Replaces characters or text.
+"Hello".replace('l','p') → Heppo
+12.trim()	
+->Removes leading and trailing spaces.
+" Hi ".trim() → Hi
+13.startsWith()	
+->Checks the beginning of a string.	
+"Java".startsWith("Ja") → true
+14.endsWith()
+->Checks the ending of a string.	
+"Java".endsWith("va") → true
+15.isEmpty()	
+->Checks whether a string is empty.	
+"".isEmpty() → true
