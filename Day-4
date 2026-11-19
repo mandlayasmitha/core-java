@@ -1,0 +1,5 @@
+***JAVA STRINGS***
+->Text is stored as a sequence of characters,indexed from 0.
+String,StringBuilder,StringBuffer,Pattern and Matcher.
+Patterns
+->Two points,frequency maps,sliding window,regex.
