@@ -137,3 +137,48 @@ class Main {
         sc.close();
     }
 }
+
+Inspecting
+->length()
+->charAt()
+->isEmpty()
+->isBlank()
+Extracted by index
+->subString()
+->indexof()
+Compare
+->equals()
+->compareTo()
+Find
+->Contains()
+->startsWith()
+->endsWith()
+Transfer
+->Strip()
+->concate()
+->trim()
+->repeat()
+Replace
+->replace()
+->replaceall()
+->replaceFirst()
+Split
+->split()
+Join
+->join()
+
+
+->toCharArray()
+->Valueof()
+->matches()
+->fromatted()
+
+
+***String Builder***
+
+class main{
+    public static void main(String[] args){
+        StringBuilder o=new StringBuilder("Hello");
+        System.out.println(o);
+    }
+}
