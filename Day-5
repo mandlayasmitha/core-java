@@ -1,0 +1,42 @@
+OOPS
+->Encapsulation
+->Polyporphism
+->Data Abstraction
+->Inheritance
+
+1. Encapsulation
+Wrapping data (variables) and methods into a single unit (class) is called Encapsulation.
+
+Example: Using private variables and public getters and setters.
+2. Polymorphism
+One thing having many forms is called Polymorphism.
+
+Example: Method overloading and method overriding.
+3. Data Abstraction
+Hiding internal implementation details and showing only essential information to the user is called Abstraction.
+
+Example: Using abstract classes and interfaces.
+4. Inheritance
+One class acquiring the properties and methods of another class is called Inheritance.
+
+Example: Using the extends keyword.
+
+INHERITANCE
+In Java, there are 5 types of inheritance.
+1. Single Inheritance
+One child class inherits from one parent class.
+
+2. Multilevel Inheritance
+One class inherits from another class, and a third class inherits from the second class.
+
+3. Hierarchical Inheritance
+Multiple child classes inherit from one parent class.
+
+4. Multiple Inheritance
+One child class inherits from multiple parent classes.
+
+Important
+ Java does not support multiple inheritance through classes, but it supports it through interfaces.
+5. Hybrid Inheritance
+Combination of two or more types of inheritance.
+
