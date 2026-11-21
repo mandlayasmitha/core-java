@@ -1,0 +1,20 @@
+Java collection framework
+->List
+->Queue
+->set
+->map
+List types:
+->ArrayList
+->LinkedList
+->Vector
+->Stack
+basic syntax ArrayList:-
+ArrayList<Integer>classroom = new ArrayList<>();
+operation:
+1,add(elements)
+2,remove(elements)
+3,set(index,elements)
+4,get(index)
+5,contains(element)
+6,isEmpty()
+7,clear()
